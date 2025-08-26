@@ -7,6 +7,7 @@ int main(){
 	float weight_plan;
 	int wheels;
 	float area_cm2, area_m2;
+	float g = 9.8;
 	
 	float force_total, force_per_wheel, pressure_per_wheel;
 	
@@ -21,7 +22,7 @@ int main(){
 	area_m2 = area_cm2 / 1000;
 	
 	//calculate  force_total, force_per_wheel, pressure_per_wheel
-	force_total =  weight_plan * 9.8;
+	force_total =  weight_plan * g;
 	force_per_wheel = force_total / wheels;
 	pressure_per_wheel = force_per_wheel / area_m2;
 	
@@ -29,5 +30,5 @@ int main(){
 	printf("force_per_wheel : %f\n", force_per_wheel);
 	printf("pressure_per_wheel : %f\n", pressure_per_wheel);
 	
-
 }
+
