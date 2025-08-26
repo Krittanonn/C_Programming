@@ -1,3 +1,5 @@
+// angle of clock
+
 #include <stdio.h>
 
 int main(){
@@ -30,4 +32,5 @@ int main(){
 	printf("hourAngle :%.2f\n", hourAngle);
 	printf("minAngle :%.2f\n", minAngle);
 	printf("angle : %.2f\n", angle);
+
 } 
