@@ -1,3 +1,5 @@
+// snell and sump
+
 #include <stdio.h>
 
 int main(){
@@ -27,4 +29,5 @@ int main(){
 		
 	}	
 	printf("\ntotal distance: %f\n", distance);
+
 }
